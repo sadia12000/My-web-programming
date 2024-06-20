@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1> Registration form </h1>
+
+<form action="/action_page.php">
+<p> This laptop cost me 100 &yen; </p>
+<p> This website is copyrighted &copy; 2019 </p>
+<fieldset>
+<legend> Personal information </legend>
+
+
+      <p><form> First Name <br> <Input Type ="text" name="frame" required> </P>
+      <p><form> Last Name <br> <Input Type ="text" name="iname"> </p>
+  
+ <p>Birthdate<br/>
+<input type="date" name="bday"/>
+</p>
+
+ <p> Email <br> <input type= " email" name"email"> </p>
+  
+ <p> Password <br> <input type="password" name"pass"> </p>
+ 
+ <p> confirm password <br> <input type="password" name= "confirm pass"> </p>
+ 
+ </fieldset>
+ 
+ <p> What did you think of Japan? <br/>
+ 
+
+ <textarea name="comments" cols="30" rows="10">Enter 
+your comments...</textarea> </p>
+
+<p>Please select your favourite genre of music:<br />
+<input type="radio" name="genre" value="rock" checked="checked" /> Rock
+<input type="radio" name="genre" value="pop" /> Pop
+<input type="radio" name="genre" value="jazz" /> Jazz
+</p>
+
+<p>Please choose your Hobbies (You can select more than one) <br />
+<input type="checkbox" name="hobby1" value="music"> Music <br>
+<input type="checkbox" name="hobby2" value="sports"> Sports<br>
+<input type="checkbox" name="hobby3" value="programming" checked> 
+Programming <br>
+ 
+ <p>Which semester are your currently enrolled in?<br/>
+<select name="semester">
+<option value="fall2019">Fall 2019</option>
+<option value="spring2020">Spring 2020</option>
+<option value="fall2020">Fall 2020</option>
+</select>
+</p>
+
+<p>Which courses are you registered in this semester?<br/>
+<select name="course-registered" multiple="multiple">
+<option value="web-programming" selected="selected">Web 
+Programming</option>
+<option value="database">Database</option>
+<option value="computer-organization-theory">Computer Organization 
+Theory</option>
+</select>
+</p>
+
+<p>Upload your resume:<br/>
+<input type="file" name="resume" /><br/>
+</p>
+ 
+ 
+ 
+ 
+ <Input Type ="Reset">
+ 
+      <Input types="submit" value="Register Me">
+</from>
+     
+
+</body>
+</html>
